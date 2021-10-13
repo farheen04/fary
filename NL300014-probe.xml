@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectDevices xmlns:m="urn:mtconnect.org:MTConnectDevices:1.2"
+    xmlns="urn:mtconnect.org:MTConnectDevices:1.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ms="http://www.moriwebmonitor.com" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:1.2 http://www.mtconnect.org/schemas/MTConnectDevices_1.2.xsd">
+    <Header creationTime="2021-01-18T18:18:42Z" sender="LSTBIAPPS1" instanceId="1610118018" version="1.1.0.0" assetBufferSize="1024" assetCount="0" bufferSize="262144"/>
+    <Devices>
+        <Device id="NL300014_0" name="NL300014" sampleInterval="10" uuid="008">
+            <Description manufacturer="DMG MORI" serialNumber="NL300014"/>
+            <DataItems>
+                <DataItem category="EVENT" id="NL300014_1" name="estop" type="EMERGENCY_STOP"/>
+                <DataItem category="EVENT" id="NL300014_2" name="avail" type="AVAILABILITY"/>
+                <DataItem category="EVENT" id="NL300014_0_asset_chg" type="ASSET_CHANGED"/>
+            </DataItems>
+            <Components>
+                <Axes id="NL300014_3" name="Path Feedrate">
+                    <Components>
+                        <Rotary id="NL300014_4" name="A">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_5" name="Aact" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_6" name="Aload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_7" name="B">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_8" name="Bact" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_9" name="Bload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_10" name="B2">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_11" name="B2act" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_12" name="B2load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_13" name="B3">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_14" name="B3act" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_15" name="B3load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_16" name="B4">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_17" name="B4act" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_18" name="B4load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_19" name="C">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_20" name="Cact" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_21" name="Cload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_22" name="C2">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_23" name="C2act" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_24" name="C2load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_25" name="C3">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_26" name="C3act" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_27" name="C3load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_28" name="C4">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_29" name="C4act" nativeUnits="DEGREE" subType="ACTUAL" type="POSITION" units="DEGREE"/>
+                                <DataItem category="SAMPLE" id="NL300014_30" name="C4load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_31" name="C5">
+                            <DataItems>
+                                <DataItem category="EVENT" id="NL300014_32" name="spindlerotating5" type="ms:SPINDLE_ROTATING"/>
+                                <DataItem category="SAMPLE" id="NL300014_33" name="C5speed" nativeUnits="REVOLUTION/MINUTE" subType="ACTUAL" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE"/>
+                                <DataItem category="SAMPLE" id="NL300014_34" name="spindleoverride5" nativeUnits="REVOLUTION/MINUTE" subType="OVERRIDE" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE"/>
+                                <DataItem category="SAMPLE" id="NL300014_35" name="C5load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                                <DataItem category="EVENT" id="NL300014_36" name="C5mode" type="ROTARY_MODE"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_37" name="C6">
+                            <DataItems>
+                                <DataItem category="EVENT" id="NL300014_38" name="spindlerotating6" type="ms:SPINDLE_ROTATING"/>
+                                <DataItem category="SAMPLE" id="NL300014_39" name="C6speed" nativeUnits="REVOLUTION/MINUTE" subType="ACTUAL" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE"/>
+                                <DataItem category="SAMPLE" id="NL300014_40" name="spindleoverride6" nativeUnits="REVOLUTION/MINUTE" subType="OVERRIDE" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE"/>
+                                <DataItem category="SAMPLE" id="NL300014_41" name="C6load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                                <DataItem category="EVENT" id="NL300014_42" name="C6mode" type="ROTARY_MODE"/>
+                            </DataItems>
+                        </Rotary>
+                        <Rotary id="NL300014_43" name="C7">
+                            <DataItems>
+                                <DataItem category="EVENT" id="NL300014_44" name="spindlerotating7" type="ms:SPINDLE_ROTATING"/>
+                                <DataItem category="SAMPLE" id="NL300014_45" name="C7speed" nativeUnits="REVOLUTION/MINUTE" subType="ACTUAL" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE"/>
+                                <DataItem category="SAMPLE" id="NL300014_46" name="spindleoverride7" nativeUnits="REVOLUTION/MINUTE" subType="OVERRIDE" type="SPINDLE_SPEED" units="REVOLUTION/MINUTE"/>
+                                <DataItem category="SAMPLE" id="NL300014_47" name="C7load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                                <DataItem category="EVENT" id="NL300014_48" name="C7mode" type="ROTARY_MODE"/>
+                            </DataItems>
+                        </Rotary>
+                        <Linear id="NL300014_49" name="X">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_50" name="Xact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_51" name="Xload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_52" name="X2">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_53" name="X2act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_54" name="X2load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_55" name="X3">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_56" name="X3act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_57" name="X3load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_58" name="X4">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_59" name="X4act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_60" name="X4load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_61" name="Y">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_62" name="Yact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_63" name="Yload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_64" name="Y2">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_65" name="Y2act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_66" name="Y2load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_67" name="Y3">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_68" name="Y3act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_69" name="Y3load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_70" name="Y4">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_71" name="Y4act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_72" name="Y4load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_73" name="Z">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_74" name="Zact" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_75" name="Zload" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_76" name="Z2">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_77" name="Z2act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_78" name="Z2load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_79" name="Z3">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_80" name="Z3act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_81" name="Z3load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                        <Linear id="NL300014_82" name="Z4">
+                            <DataItems>
+                                <DataItem category="SAMPLE" coordinateSystem="MACHINE" id="NL300014_83" name="Z4act" nativeUnits="MILLIMETER" subType="ACTUAL" type="POSITION" units="MILLIMETER"/>
+                                <DataItem category="SAMPLE" id="NL300014_84" name="Z4load" nativeUnits="PERCENT" type="LOAD" units="PERCENT"/>
+                            </DataItems>
+                        </Linear>
+                    </Components>
+                </Axes>
+                <Controller id="NL300014_85" name="Controller">
+                    <DataItems>
+                        <DataItem category="EVENT" id="NL300014_86" name="power_state_" subType="CONTROL" type="POWER_STATE"/>
+                    </DataItems>
+                    <Components>
+                        <Path id="NL300014_87" name="Path_1">
+                            <DataItems>
+                                <DataItem category="EVENT" id="NL300014_88" name="reset1" type="ms:RESET"/>
+                                <DataItem category="EVENT" id="NL300014_89" name="part_count1" subType="ALL" type="PART_COUNT"/>
+                                <DataItem category="EVENT" id="NL300014_90" name="axes1" type="ACTIVE_AXES"/>
+                                <DataItem category="EVENT" id="NL300014_91" name="mode1" type="CONTROLLER_MODE"/>
+                                <DataItem category="EVENT" id="NL300014_92" name="execution1" type="EXECUTION"/>
+                                <DataItem category="EVENT" id="NL300014_93" name="program1" type="PROGRAM"/>
+                                <DataItem category="EVENT" id="NL300014_94" name="line1" subType="MINIMUM" type="LINE"/>
+                                <DataItem category="EVENT" id="NL300014_95" name="block1" type="BLOCK"/>
+                                <DataItem category="SAMPLE" id="NL300014_96" name="path_feedrate1" nativeUnits="MILLIMETER/SECOND" subType="ACTUAL" type="PATH_FEEDRATE" units="MILLIMETER/SECOND"/>
+                                <DataItem category="EVENT" id="NL300014_97" name="toolnumber1" type="TOOL_ID"/>
+                                <DataItem category="EVENT" id="NL300014_98" name="optionalstop1" type="ms:OPTIONAL_STOP"/>
+                                <DataItem category="EVENT" id="NL300014_99" name="blockdelete1" type="ms:BLOCK_DELETE"/>
+                                <DataItem category="EVENT" id="NL300014_100" name="dryrun1" type="ms:DRY_RUN"/>
+                                <DataItem category="EVENT" id="NL300014_101" name="cutting1" type="ms:CUTTING"/>
+                                <DataItem category="EVENT" id="NL300014_102" name="operationmode1" type="ms:OPERATION_MODE"/>
+                                <DataItem category="EVENT" id="NL300014_103" name="jogoverride1" nativeUnits="PERCENT" type="ms:JOG_OVERRIDE" units="PERCENT"/>
+                                <DataItem category="EVENT" id="NL300014_104" name="rapidoverride1" nativeUnits="PERCENT" type="ms:RAPID_OVERRIDE" units="PERCENT"/>
+                                <DataItem category="CONDITION" id="NL300014_105" name="logic1" type="LOGIC_PROGRAM"/>
+                                <DataItem category="CONDITION" id="NL300014_106" name="motion1" type="MOTION_PROGRAM"/>
+                            </DataItems>
+                        </Path>
+                        <Path id="NL300014_107" name="Path_2">
+                            <DataItems>
+                                <DataItem category="EVENT" id="NL300014_108" name="reset2" type="ms:RESET"/>
+                                <DataItem category="EVENT" id="NL300014_109" name="part_count2" subType="ALL" type="PART_COUNT"/>
+                                <DataItem category="EVENT" id="NL300014_110" name="axes2" type="ACTIVE_AXES"/>
+                                <DataItem category="EVENT" id="NL300014_111" name="mode2" type="CONTROLLER_MODE"/>
+                                <DataItem category="EVENT" id="NL300014_112" name="execution2" type="EXECUTION"/>
+                                <DataItem category="EVENT" id="NL300014_113" name="program2" type="PROGRAM"/>
+                                <DataItem category="EVENT" id="NL300014_114" name="line2" subType="MINIMUM" type="LINE"/>
+                                <DataItem category="EVENT" id="NL300014_115" name="block2" type="BLOCK"/>
+                                <DataItem category="SAMPLE" id="NL300014_116" name="path_feedrate2" nativeUnits="MILLIMETER/SECOND" subType="ACTUAL" type="PATH_FEEDRATE" units="MILLIMETER/SECOND"/>
+                                <DataItem category="EVENT" id="NL300014_117" name="toolnumber2" type="TOOL_ID"/>
+                                <DataItem category="EVENT" id="NL300014_118" name="optionalstop2" type="ms:OPTIONAL_STOP"/>
+                                <DataItem category="EVENT" id="NL300014_119" name="blockdelete2" type="ms:BLOCK_DELETE"/>
+                                <DataItem category="EVENT" id="NL300014_120" name="dryrun2" type="ms:DRY_RUN"/>
+                                <DataItem category="EVENT" id="NL300014_121" name="cutting2" type="ms:CUTTING"/>
+                                <DataItem category="EVENT" id="NL300014_122" name="operationmode2" type="ms:OPERATION_MODE"/>
+                                <DataItem category="EVENT" id="NL300014_123" name="jogoverride2" nativeUnits="PERCENT" type="ms:JOG_OVERRIDE" units="PERCENT"/>
+                                <DataItem category="EVENT" id="NL300014_124" name="rapidoverride2" nativeUnits="PERCENT" type="ms:RAPID_OVERRIDE" units="PERCENT"/>
+                                <DataItem category="CONDITION" id="NL300014_125" name="logic2" type="LOGIC_PROGRAM"/>
+                                <DataItem category="CONDITION" id="NL300014_126" name="motion2" type="MOTION_PROGRAM"/>
+                            </DataItems>
+                        </Path>
+                        <Path id="NL300014_127" name="Path_3">
+                            <DataItems>
+                                <DataItem category="EVENT" id="NL300014_128" name="reset3" type="ms:RESET"/>
+                                <DataItem category="EVENT" id="NL300014_129" name="part_count3" subType="ALL" type="PART_COUNT"/>
+                                <DataItem category="EVENT" id="NL300014_130" name="axes3" type="ACTIVE_AXES"/>
+                                <DataItem category="EVENT" id="NL300014_131" name="mode3" type="CONTROLLER_MODE"/>
+                                <DataItem category="EVENT" id="NL300014_132" name="execution3" type="EXECUTION"/>
+                                <DataItem category="EVENT" id="NL300014_133" name="program3" type="PROGRAM"/>
+                                <DataItem category="EVENT" id="NL300014_134" name="line3" subType="MINIMUM" type="LINE"/>
+                                <DataItem category="EVENT" id="NL300014_135" name="block3" type="BLOCK"/>
+                                <DataItem category="SAMPLE" id="NL300014_136" name="path_feedrate3" nativeUnits="MILLIMETER/SECOND" subType="ACTUAL" type="PATH_FEEDRATE" units="MILLIMETER/SECOND"/>
+                                <DataItem category="EVENT" id="NL300014_137" name="toolnumber3" type="TOOL_ID"/>
+                                <DataItem category="EVENT" id="NL300014_138" name="optionalstop3" type="ms:OPTIONAL_STOP"/>
+                                <DataItem category="EVENT" id="NL300014_139" name="blockdelete3" type="ms:BLOCK_DELETE"/>
+                                <DataItem category="EVENT" id="NL300014_140" name="dryrun3" type="ms:DRY_RUN"/>
+                                <DataItem category="EVENT" id="NL300014_141" name="cutting3" type="ms:CUTTING"/>
+                                <DataItem category="EVENT" id="NL300014_142" name="operationmode3" type="ms:OPERATION_MODE"/>
+                                <DataItem category="EVENT" id="NL300014_143" name="jogoverride3" type="ms:JOG_OVERRIDE"/>
+                                <DataItem category="EVENT" id="NL300014_144" name="rapidoverride3" type="ms:RAPID_OVERRIDE"/>
+                                <DataItem category="CONDITION" id="NL300014_145" name="logic3" type="LOGIC_PROGRAM"/>
+                                <DataItem category="CONDITION" id="NL300014_146" name="motion3" type="MOTION_PROGRAM"/>
+                            </DataItems>
+                        </Path>
+                        <Path id="NL300014_147" name="Path_4">
+                            <DataItems>
+                                <DataItem category="EVENT" id="NL300014_148" name="reset4" type="ms:RESET"/>
+                                <DataItem category="EVENT" id="NL300014_149" name="part_count4" subType="ALL" type="PART_COUNT"/>
+                                <DataItem category="EVENT" id="NL300014_150" name="axes4" type="ACTIVE_AXES"/>
+                                <DataItem category="EVENT" id="NL300014_151" name="mode4" type="CONTROLLER_MODE"/>
+                                <DataItem category="EVENT" id="NL300014_152" name="execution4" type="EXECUTION"/>
+                                <DataItem category="EVENT" id="NL300014_153" name="program4" type="PROGRAM"/>
+                                <DataItem category="EVENT" id="NL300014_154" name="line4" subType="MINIMUM" type="LINE"/>
+                                <DataItem category="EVENT" id="NL300014_155" name="block4" type="BLOCK"/>
+                                <DataItem category="SAMPLE" id="NL300014_156" name="path_feedrate4" nativeUnits="MILLIMETER/SECOND" subType="ACTUAL" type="PATH_FEEDRATE" units="MILLIMETER/SECOND"/>
+                                <DataItem category="EVENT" id="NL300014_157" name="toolnumber4" type="TOOL_ID"/>
+                                <DataItem category="EVENT" id="NL300014_158" name="optionalstop4" type="ms:OPTIONAL_STOP"/>
+                                <DataItem category="EVENT" id="NL300014_159" name="blockdelete4" type="ms:BLOCK_DELETE"/>
+                                <DataItem category="EVENT" id="NL300014_160" name="dryrun4" type="ms:DRY_RUN"/>
+                                <DataItem category="EVENT" id="NL300014_161" name="cutting4" type="ms:CUTTING"/>
+                                <DataItem category="EVENT" id="NL300014_162" name="operationmode4" type="ms:OPERATION_MODE"/>
+                                <DataItem category="EVENT" id="NL300014_163" name="jogoverride4" nativeUnits="PERCENT" type="ms:JOG_OVERRIDE" units="PERCENT"/>
+                                <DataItem category="EVENT" id="NL300014_164" name="rapidoverride4" nativeUnits="PERCENT" type="ms:RAPID_OVERRIDE" units="PERCENT"/>
+                                <DataItem category="CONDITION" id="NL300014_165" name="logic4" type="LOGIC_PROGRAM"/>
+                                <DataItem category="CONDITION" id="NL300014_166" name="motion4" type="MOTION_PROGRAM"/>
+                            </DataItems>
+                        </Path>
+                    </Components>
+                </Controller>
+                <System id="NL300014_167" name="System">
+                    <Components>
+                        <Coolant id="NL300014_168" name="Coolant">
+                            <DataItems>
+                                <DataItem category="EVENT" id="NL300014_169" name="coolant" type="ms:COOLANT"/>
+                            </DataItems>
+                        </Coolant>
+                    </Components>
+                </System>
+            </Components>
+        </Device>
+    </Devices>
+</MTConnectDevices>

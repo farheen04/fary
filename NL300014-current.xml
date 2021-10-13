@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:1.2"
+    xmlns="urn:mtconnect.org:MTConnectStreams:1.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:1.2 http://www.mtconnect.org/schemas/MTConnectStreams_1.2.xsd">
+    <Header creationTime="2021-01-18T18:19:29Z" sender="LSTBIAPPS1" instanceId="1610118018" version="1.1.0.0" bufferSize="262144" nextSequence="7214613" firstSequence="6952469" lastSequence="7214612"/>
+    <Streams>
+        <DeviceStream name="NL300014" uuid="008">
+            <ComponentStream component="Device" name="NL300014" componentId="NL300014_0">
+                <Events>
+                    <AssetChanged dataItemId="NL300014_0_asset_chg" timestamp="2021-01-08T15:00:18.712Z" sequence="967" assetType="">UNAVAILABLE</AssetChanged>
+                    <EmergencyStop dataItemId="NL300014_1" timestamp="2021-01-16T04:16:52.860Z" name="estop" sequence="6494058">UNAVAILABLE</EmergencyStop>
+                    <Availability dataItemId="NL300014_2" timestamp="2021-01-16T04:16:52.860Z" name="avail" sequence="6494067">UNAVAILABLE</Availability>
+                </Events>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="B2" componentId="NL300014_10">
+                <Samples>
+                    <Position dataItemId="NL300014_11" timestamp="2021-01-08T15:00:18.712Z" name="B2act" sequence="978" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_12" timestamp="2021-01-08T15:00:18.712Z" name="B2load" sequence="989">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Path" name="Path_2" componentId="NL300014_107">
+                <Samples>
+                    <PathFeedrate dataItemId="NL300014_116" timestamp="2021-01-08T15:00:18.712Z" name="path_feedrate2" sequence="985" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+                </Samples>
+                <Events>
+                    <Reset dataItemId="NL300014_108" timestamp="2021-01-08T15:00:18.712Z" name="reset2" sequence="976">UNAVAILABLE</Reset>
+                    <PartCount dataItemId="NL300014_109" timestamp="2021-01-08T15:00:18.712Z" name="part_count2" sequence="977" subType="ALL">UNAVAILABLE</PartCount>
+                    <ActiveAxes dataItemId="NL300014_110" timestamp="2021-01-08T15:00:18.712Z" name="axes2" sequence="979">UNAVAILABLE</ActiveAxes>
+                    <ControllerMode dataItemId="NL300014_111" timestamp="2021-01-08T15:00:18.712Z" name="mode2" sequence="980">UNAVAILABLE</ControllerMode>
+                    <Execution dataItemId="NL300014_112" timestamp="2021-01-08T15:00:18.712Z" name="execution2" sequence="981">UNAVAILABLE</Execution>
+                    <Program dataItemId="NL300014_113" timestamp="2021-01-08T15:00:18.712Z" name="program2" sequence="982">UNAVAILABLE</Program>
+                    <Line dataItemId="NL300014_114" timestamp="2021-01-08T15:00:18.712Z" name="line2" sequence="983" subType="MINIMUM">UNAVAILABLE</Line>
+                    <Block dataItemId="NL300014_115" timestamp="2021-01-08T15:00:18.712Z" name="block2" sequence="984">UNAVAILABLE</Block>
+                    <ToolId dataItemId="NL300014_117" timestamp="2021-01-08T15:00:18.712Z" name="toolnumber2" sequence="986">UNAVAILABLE</ToolId>
+                    <OptionalStop dataItemId="NL300014_118" timestamp="2021-01-08T15:00:18.712Z" name="optionalstop2" sequence="987">UNAVAILABLE</OptionalStop>
+                    <BlockDelete dataItemId="NL300014_119" timestamp="2021-01-08T15:00:18.712Z" name="blockdelete2" sequence="988">UNAVAILABLE</BlockDelete>
+                    <DryRun dataItemId="NL300014_120" timestamp="2021-01-08T15:00:18.712Z" name="dryrun2" sequence="990">UNAVAILABLE</DryRun>
+                    <Cutting dataItemId="NL300014_121" timestamp="2021-01-08T15:00:18.712Z" name="cutting2" sequence="991">UNAVAILABLE</Cutting>
+                    <OperationMode dataItemId="NL300014_122" timestamp="2021-01-08T15:00:18.712Z" name="operationmode2" sequence="992">UNAVAILABLE</OperationMode>
+                    <JogOverride dataItemId="NL300014_123" timestamp="2021-01-08T15:00:18.712Z" name="jogoverride2" sequence="993">UNAVAILABLE</JogOverride>
+                    <RapidOverride dataItemId="NL300014_124" timestamp="2021-01-08T15:00:18.712Z" name="rapidoverride2" sequence="994">UNAVAILABLE</RapidOverride>
+                </Events>
+                <Condition>
+                    <Unavailable dataItemId="NL300014_125" timestamp="2021-01-13T13:15:29.296Z" name="logic2" sequence="3300957" type="LOGIC_PROGRAM"/>
+                    <Unavailable dataItemId="NL300014_126" timestamp="2021-01-13T13:15:29.296Z" name="motion2" sequence="3300958" type="MOTION_PROGRAM"/>
+                </Condition>
+            </ComponentStream>
+            <ComponentStream component="Path" name="Path_3" componentId="NL300014_127">
+                <Samples>
+                    <PathFeedrate dataItemId="NL300014_136" timestamp="2021-01-08T15:00:18.712Z" name="path_feedrate3" sequence="1005" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+                </Samples>
+                <Events>
+                    <Reset dataItemId="NL300014_128" timestamp="2021-01-08T15:00:18.712Z" name="reset3" sequence="997">UNAVAILABLE</Reset>
+                    <PartCount dataItemId="NL300014_129" timestamp="2021-01-08T15:00:18.712Z" name="part_count3" sequence="998" subType="ALL">UNAVAILABLE</PartCount>
+                    <ActiveAxes dataItemId="NL300014_130" timestamp="2021-01-08T15:00:18.712Z" name="axes3" sequence="999">UNAVAILABLE</ActiveAxes>
+                    <ControllerMode dataItemId="NL300014_131" timestamp="2021-01-08T15:00:18.712Z" name="mode3" sequence="1000">UNAVAILABLE</ControllerMode>
+                    <Execution dataItemId="NL300014_132" timestamp="2021-01-08T15:00:18.712Z" name="execution3" sequence="1001">UNAVAILABLE</Execution>
+                    <Program dataItemId="NL300014_133" timestamp="2021-01-08T15:00:18.712Z" name="program3" sequence="1002">UNAVAILABLE</Program>
+                    <Line dataItemId="NL300014_134" timestamp="2021-01-08T15:00:18.712Z" name="line3" sequence="1003" subType="MINIMUM">UNAVAILABLE</Line>
+                    <Block dataItemId="NL300014_135" timestamp="2021-01-08T15:00:18.712Z" name="block3" sequence="1004">UNAVAILABLE</Block>
+                    <ToolId dataItemId="NL300014_137" timestamp="2021-01-08T15:00:18.712Z" name="toolnumber3" sequence="1006">UNAVAILABLE</ToolId>
+                    <OptionalStop dataItemId="NL300014_138" timestamp="2021-01-08T15:00:18.712Z" name="optionalstop3" sequence="1007">UNAVAILABLE</OptionalStop>
+                    <BlockDelete dataItemId="NL300014_139" timestamp="2021-01-08T15:00:18.712Z" name="blockdelete3" sequence="1008">UNAVAILABLE</BlockDelete>
+                    <DryRun dataItemId="NL300014_140" timestamp="2021-01-08T15:00:18.712Z" name="dryrun3" sequence="1010">UNAVAILABLE</DryRun>
+                    <Cutting dataItemId="NL300014_141" timestamp="2021-01-08T15:00:18.712Z" name="cutting3" sequence="1011">UNAVAILABLE</Cutting>
+                    <OperationMode dataItemId="NL300014_142" timestamp="2021-01-08T15:00:18.712Z" name="operationmode3" sequence="1012">UNAVAILABLE</OperationMode>
+                    <JogOverride dataItemId="NL300014_143" timestamp="2021-01-08T15:00:18.712Z" name="jogoverride3" sequence="1013">UNAVAILABLE</JogOverride>
+                    <RapidOverride dataItemId="NL300014_144" timestamp="2021-01-08T15:00:18.712Z" name="rapidoverride3" sequence="1014">UNAVAILABLE</RapidOverride>
+                </Events>
+                <Condition>
+                    <Unavailable dataItemId="NL300014_145" timestamp="2021-01-13T13:15:29.296Z" name="logic3" sequence="3300959" type="LOGIC_PROGRAM"/>
+                    <Unavailable dataItemId="NL300014_146" timestamp="2021-01-13T13:15:29.296Z" name="motion3" sequence="3300960" type="MOTION_PROGRAM"/>
+                </Condition>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="B3" componentId="NL300014_13">
+                <Samples>
+                    <Position dataItemId="NL300014_14" timestamp="2021-01-08T15:00:18.712Z" name="B3act" sequence="1009" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_15" timestamp="2021-01-08T15:00:18.712Z" name="B3load" sequence="1019">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Path" name="Path_4" componentId="NL300014_147">
+                <Samples>
+                    <PathFeedrate dataItemId="NL300014_156" timestamp="2021-01-08T15:00:18.712Z" name="path_feedrate4" sequence="1026" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+                </Samples>
+                <Events>
+                    <Reset dataItemId="NL300014_148" timestamp="2021-01-08T15:00:18.712Z" name="reset4" sequence="1017">UNAVAILABLE</Reset>
+                    <PartCount dataItemId="NL300014_149" timestamp="2021-01-08T15:00:18.712Z" name="part_count4" sequence="1018" subType="ALL">UNAVAILABLE</PartCount>
+                    <ActiveAxes dataItemId="NL300014_150" timestamp="2021-01-08T15:00:18.712Z" name="axes4" sequence="1020">UNAVAILABLE</ActiveAxes>
+                    <ControllerMode dataItemId="NL300014_151" timestamp="2021-01-08T15:00:18.712Z" name="mode4" sequence="1021">UNAVAILABLE</ControllerMode>
+                    <Execution dataItemId="NL300014_152" timestamp="2021-01-08T15:00:18.712Z" name="execution4" sequence="1022">UNAVAILABLE</Execution>
+                    <Program dataItemId="NL300014_153" timestamp="2021-01-08T15:00:18.712Z" name="program4" sequence="1023">UNAVAILABLE</Program>
+                    <Line dataItemId="NL300014_154" timestamp="2021-01-08T15:00:18.712Z" name="line4" sequence="1024" subType="MINIMUM">UNAVAILABLE</Line>
+                    <Block dataItemId="NL300014_155" timestamp="2021-01-08T15:00:18.712Z" name="block4" sequence="1025">UNAVAILABLE</Block>
+                    <ToolId dataItemId="NL300014_157" timestamp="2021-01-08T15:00:18.712Z" name="toolnumber4" sequence="1027">UNAVAILABLE</ToolId>
+                    <OptionalStop dataItemId="NL300014_158" timestamp="2021-01-08T15:00:18.712Z" name="optionalstop4" sequence="1028">UNAVAILABLE</OptionalStop>
+                    <BlockDelete dataItemId="NL300014_159" timestamp="2021-01-08T15:00:18.712Z" name="blockdelete4" sequence="1029">UNAVAILABLE</BlockDelete>
+                    <DryRun dataItemId="NL300014_160" timestamp="2021-01-08T15:00:18.712Z" name="dryrun4" sequence="1030">UNAVAILABLE</DryRun>
+                    <Cutting dataItemId="NL300014_161" timestamp="2021-01-08T15:00:18.712Z" name="cutting4" sequence="1031">UNAVAILABLE</Cutting>
+                    <OperationMode dataItemId="NL300014_162" timestamp="2021-01-08T15:00:18.712Z" name="operationmode4" sequence="1032">UNAVAILABLE</OperationMode>
+                    <JogOverride dataItemId="NL300014_163" timestamp="2021-01-08T15:00:18.712Z" name="jogoverride4" sequence="1033">UNAVAILABLE</JogOverride>
+                    <RapidOverride dataItemId="NL300014_164" timestamp="2021-01-08T15:00:18.712Z" name="rapidoverride4" sequence="1034">UNAVAILABLE</RapidOverride>
+                </Events>
+                <Condition>
+                    <Unavailable dataItemId="NL300014_165" timestamp="2021-01-13T13:15:29.296Z" name="logic4" sequence="3300961" type="LOGIC_PROGRAM"/>
+                    <Unavailable dataItemId="NL300014_166" timestamp="2021-01-13T13:15:29.296Z" name="motion4" sequence="3300962" type="MOTION_PROGRAM"/>
+                </Condition>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="B4" componentId="NL300014_16">
+                <Samples>
+                    <Position dataItemId="NL300014_17" timestamp="2021-01-08T15:00:18.712Z" name="B4act" sequence="1038" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_18" timestamp="2021-01-08T15:00:18.712Z" name="B4load" sequence="1039">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Coolant" name="Coolant" componentId="NL300014_168">
+                <Events>
+                    <Coolant dataItemId="NL300014_169" timestamp="2021-01-16T04:16:52.860Z" name="coolant" sequence="6494066">UNAVAILABLE</Coolant>
+                </Events>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="C" componentId="NL300014_19">
+                <Samples>
+                    <Position dataItemId="NL300014_20" timestamp="2021-01-16T04:16:52.860Z" name="Cact" sequence="6494068" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_21" timestamp="2021-01-08T15:00:18.712Z" name="Cload" sequence="1042">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="C2" componentId="NL300014_22">
+                <Samples>
+                    <Position dataItemId="NL300014_23" timestamp="2021-01-08T15:00:18.712Z" name="C2act" sequence="1043" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_24" timestamp="2021-01-08T15:00:18.712Z" name="C2load" sequence="1044">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="C3" componentId="NL300014_25">
+                <Samples>
+                    <Position dataItemId="NL300014_26" timestamp="2021-01-08T15:00:18.712Z" name="C3act" sequence="1045" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_27" timestamp="2021-01-08T15:00:18.712Z" name="C3load" sequence="1046">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="C4" componentId="NL300014_28">
+                <Samples>
+                    <Position dataItemId="NL300014_29" timestamp="2021-01-08T15:00:18.712Z" name="C4act" sequence="1047" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_30" timestamp="2021-01-08T15:00:18.712Z" name="C4load" sequence="1048">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="C5" componentId="NL300014_31">
+                <Samples>
+                    <SpindleSpeed dataItemId="NL300014_33" timestamp="2021-01-16T04:16:52.860Z" name="C5speed" sequence="6494070" subType="ACTUAL">UNAVAILABLE</SpindleSpeed>
+                    <SpindleSpeed dataItemId="NL300014_34" timestamp="2021-01-16T04:16:52.860Z" name="spindleoverride5" sequence="6494071" subType="OVERRIDE">UNAVAILABLE</SpindleSpeed>
+                    <Load dataItemId="NL300014_35" timestamp="2021-01-16T04:16:52.860Z" name="C5load" sequence="6494072">UNAVAILABLE</Load>
+                </Samples>
+                <Events>
+                    <SpindleRotating dataItemId="NL300014_32" timestamp="2021-01-16T04:16:52.860Z" name="spindlerotating5" sequence="6494069">UNAVAILABLE</SpindleRotating>
+                    <RotaryMode dataItemId="NL300014_36" timestamp="2021-01-16T04:16:52.860Z" name="C5mode" sequence="6494073">UNAVAILABLE</RotaryMode>
+                </Events>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="C6" componentId="NL300014_37">
+                <Samples>
+                    <SpindleSpeed dataItemId="NL300014_39" timestamp="2021-01-16T04:16:52.860Z" name="C6speed" sequence="6494075" subType="ACTUAL">UNAVAILABLE</SpindleSpeed>
+                    <SpindleSpeed dataItemId="NL300014_40" timestamp="2021-01-08T15:00:18.712Z" name="spindleoverride6" sequence="1056" subType="OVERRIDE">UNAVAILABLE</SpindleSpeed>
+                    <Load dataItemId="NL300014_41" timestamp="2021-01-16T04:16:52.860Z" name="C6load" sequence="6494076">UNAVAILABLE</Load>
+                </Samples>
+                <Events>
+                    <SpindleRotating dataItemId="NL300014_38" timestamp="2021-01-16T04:16:52.860Z" name="spindlerotating6" sequence="6494074">UNAVAILABLE</SpindleRotating>
+                    <RotaryMode dataItemId="NL300014_42" timestamp="2021-01-16T04:16:52.860Z" name="C6mode" sequence="6494077">UNAVAILABLE</RotaryMode>
+                </Events>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="A" componentId="NL300014_4">
+                <Samples>
+                    <Position dataItemId="NL300014_5" timestamp="2021-01-08T15:00:18.712Z" name="Aact" sequence="1064" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_6" timestamp="2021-01-08T15:00:18.712Z" name="Aload" sequence="1072">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="C7" componentId="NL300014_43">
+                <Samples>
+                    <SpindleSpeed dataItemId="NL300014_45" timestamp="2021-01-08T15:00:18.712Z" name="C7speed" sequence="1060" subType="ACTUAL">UNAVAILABLE</SpindleSpeed>
+                    <SpindleSpeed dataItemId="NL300014_46" timestamp="2021-01-08T15:00:18.712Z" name="spindleoverride7" sequence="1061" subType="OVERRIDE">UNAVAILABLE</SpindleSpeed>
+                    <Load dataItemId="NL300014_47" timestamp="2021-01-16T04:16:52.860Z" name="C7load" sequence="6494078">UNAVAILABLE</Load>
+                </Samples>
+                <Events>
+                    <SpindleRotating dataItemId="NL300014_44" timestamp="2021-01-08T15:00:18.712Z" name="spindlerotating7" sequence="1059">UNAVAILABLE</SpindleRotating>
+                    <RotaryMode dataItemId="NL300014_48" timestamp="2021-01-08T15:00:18.712Z" name="C7mode" sequence="1063">UNAVAILABLE</RotaryMode>
+                </Events>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="X" componentId="NL300014_49">
+                <Samples>
+                    <Position dataItemId="NL300014_50" timestamp="2021-01-16T04:16:52.860Z" name="Xact" sequence="6494079" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_51" timestamp="2021-01-16T04:16:52.860Z" name="Xload" sequence="6494080">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="X2" componentId="NL300014_52">
+                <Samples>
+                    <Position dataItemId="NL300014_53" timestamp="2021-01-08T15:00:18.712Z" name="X2act" sequence="1067" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_54" timestamp="2021-01-08T15:00:18.712Z" name="X2load" sequence="1068">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="X3" componentId="NL300014_55">
+                <Samples>
+                    <Position dataItemId="NL300014_56" timestamp="2021-01-08T15:00:18.712Z" name="X3act" sequence="1069" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_57" timestamp="2021-01-08T15:00:18.712Z" name="X3load" sequence="1070">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="X4" componentId="NL300014_58">
+                <Samples>
+                    <Position dataItemId="NL300014_59" timestamp="2021-01-08T15:00:18.712Z" name="X4act" sequence="1071" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_60" timestamp="2021-01-08T15:00:18.712Z" name="X4load" sequence="1073">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="Y" componentId="NL300014_61">
+                <Samples>
+                    <Position dataItemId="NL300014_62" timestamp="2021-01-16T04:16:52.860Z" name="Yact" sequence="6494081" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_63" timestamp="2021-01-08T15:00:18.712Z" name="Yload" sequence="1075">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="Y2" componentId="NL300014_64">
+                <Samples>
+                    <Position dataItemId="NL300014_65" timestamp="2021-01-08T15:00:18.712Z" name="Y2act" sequence="1076" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_66" timestamp="2021-01-08T15:00:18.712Z" name="Y2load" sequence="1077">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="Y3" componentId="NL300014_67">
+                <Samples>
+                    <Position dataItemId="NL300014_68" timestamp="2021-01-08T15:00:18.712Z" name="Y3act" sequence="1078" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_69" timestamp="2021-01-08T15:00:18.712Z" name="Y3load" sequence="1079">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Rotary" name="B" componentId="NL300014_7">
+                <Samples>
+                    <Position dataItemId="NL300014_8" timestamp="2021-01-16T04:16:52.860Z" name="Bact" sequence="6494084" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_9" timestamp="2021-01-08T15:00:18.712Z" name="Bload" sequence="1094">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="Y4" componentId="NL300014_70">
+                <Samples>
+                    <Position dataItemId="NL300014_71" timestamp="2021-01-08T15:00:18.712Z" name="Y4act" sequence="1080" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_72" timestamp="2021-01-08T15:00:18.712Z" name="Y4load" sequence="1081">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="Z" componentId="NL300014_73">
+                <Samples>
+                    <Position dataItemId="NL300014_74" timestamp="2021-01-16T04:16:52.860Z" name="Zact" sequence="6494082" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_75" timestamp="2021-01-16T04:16:52.860Z" name="Zload" sequence="6494083">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="Z2" componentId="NL300014_76">
+                <Samples>
+                    <Position dataItemId="NL300014_77" timestamp="2021-01-08T15:00:18.712Z" name="Z2act" sequence="1084" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_78" timestamp="2021-01-08T15:00:18.712Z" name="Z2load" sequence="1085">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="Z3" componentId="NL300014_79">
+                <Samples>
+                    <Position dataItemId="NL300014_80" timestamp="2021-01-08T15:00:18.712Z" name="Z3act" sequence="1087" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_81" timestamp="2021-01-08T15:00:18.712Z" name="Z3load" sequence="1088">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Linear" name="Z4" componentId="NL300014_82">
+                <Samples>
+                    <Position dataItemId="NL300014_83" timestamp="2021-01-08T15:00:18.712Z" name="Z4act" sequence="1089" subType="ACTUAL">UNAVAILABLE</Position>
+                    <Load dataItemId="NL300014_84" timestamp="2021-01-08T15:00:18.712Z" name="Z4load" sequence="1090">UNAVAILABLE</Load>
+                </Samples>
+            </ComponentStream>
+            <ComponentStream component="Controller" name="Controller" componentId="NL300014_85">
+                <Events>
+                    <PowerState dataItemId="NL300014_86" timestamp="2021-01-16T04:16:52.860Z" name="power_state_" sequence="6494085" subType="CONTROL">UNAVAILABLE</PowerState>
+                </Events>
+            </ComponentStream>
+            <ComponentStream component="Path" name="Path_1" componentId="NL300014_87">
+                <Samples>
+                    <PathFeedrate dataItemId="NL300014_96" timestamp="2021-01-16T04:16:52.860Z" name="path_feedrate1" sequence="6494094" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+                </Samples>
+                <Events>
+                    <DryRun dataItemId="NL300014_100" timestamp="2021-01-16T04:16:52.860Z" name="dryrun1" sequence="6494059">UNAVAILABLE</DryRun>
+                    <Cutting dataItemId="NL300014_101" timestamp="2021-01-16T04:16:52.860Z" name="cutting1" sequence="6494060">UNAVAILABLE</Cutting>
+                    <OperationMode dataItemId="NL300014_102" timestamp="2021-01-16T04:16:52.860Z" name="operationmode1" sequence="6494061">UNAVAILABLE</OperationMode>
+                    <JogOverride dataItemId="NL300014_103" timestamp="2021-01-16T04:16:52.860Z" name="jogoverride1" sequence="6494062">UNAVAILABLE</JogOverride>
+                    <RapidOverride dataItemId="NL300014_104" timestamp="2021-01-16T04:16:52.860Z" name="rapidoverride1" sequence="6494063">UNAVAILABLE</RapidOverride>
+                    <Reset dataItemId="NL300014_88" timestamp="2021-01-16T04:16:52.860Z" name="reset1" sequence="6494086">UNAVAILABLE</Reset>
+                    <PartCount dataItemId="NL300014_89" timestamp="2021-01-16T04:16:52.860Z" name="part_count1" sequence="6494087" subType="ALL">UNAVAILABLE</PartCount>
+                    <ActiveAxes dataItemId="NL300014_90" timestamp="2021-01-16T04:16:52.860Z" name="axes1" sequence="6494088">UNAVAILABLE</ActiveAxes>
+                    <ControllerMode dataItemId="NL300014_91" timestamp="2021-01-16T04:16:52.860Z" name="mode1" sequence="6494089">UNAVAILABLE</ControllerMode>
+                    <Execution dataItemId="NL300014_92" timestamp="2021-01-16T04:16:52.860Z" name="execution1" sequence="6494090">UNAVAILABLE</Execution>
+                    <Program dataItemId="NL300014_93" timestamp="2021-01-16T04:16:52.860Z" name="program1" sequence="6494091">UNAVAILABLE</Program>
+                    <Line dataItemId="NL300014_94" timestamp="2021-01-16T04:16:52.860Z" name="line1" sequence="6494092" subType="MINIMUM">UNAVAILABLE</Line>
+                    <Block dataItemId="NL300014_95" timestamp="2021-01-16T04:16:52.860Z" name="block1" sequence="6494093">UNAVAILABLE</Block>
+                    <ToolId dataItemId="NL300014_97" timestamp="2021-01-16T04:16:52.860Z" name="toolnumber1" sequence="6494095">UNAVAILABLE</ToolId>
+                    <OptionalStop dataItemId="NL300014_98" timestamp="2021-01-16T04:16:52.860Z" name="optionalstop1" sequence="6494096">UNAVAILABLE</OptionalStop>
+                    <BlockDelete dataItemId="NL300014_99" timestamp="2021-01-16T04:16:52.860Z" name="blockdelete1" sequence="6494097">UNAVAILABLE</BlockDelete>
+                </Events>
+                <Condition>
+                    <Unavailable dataItemId="NL300014_105" timestamp="2021-01-16T04:16:52.860Z" name="logic1" sequence="6494064" type="LOGIC_PROGRAM"/>
+                    <Unavailable dataItemId="NL300014_106" timestamp="2021-01-16T04:16:52.860Z" name="motion1" sequence="6494065" type="MOTION_PROGRAM"/>
+                </Condition>
+            </ComponentStream>
+        </DeviceStream>
+    </Streams>
+</MTConnectStreams>
